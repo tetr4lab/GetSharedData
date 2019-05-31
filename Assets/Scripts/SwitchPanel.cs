@@ -21,7 +21,7 @@ public class SwitchPanel : MonoBehaviour {
 	public void OnChange (Toggle toggle) {
 		if (TextPanel != null) {
 			Cns.Locale = int.Parse (toggle.name);
-			TextPanel.text = $"Language: {Cns.S (Nam.Language)}\nTest = {Cns.Test}";
+			TextPanel.text = $"{Cns.S (Nam.Welcome)}\nTest = {Cns.Test}\n\nLanguage: {Cns.S (Nam.Language)}";
 			Debug.Log ($"{toggle.name} {Cns.Locale} {TextPanel.text}");
 		}
 	}
