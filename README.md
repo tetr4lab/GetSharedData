@@ -2,6 +2,12 @@
 Import Google spreadsheet data into Unity editor.  
 tags: Unity C# gas spreadsheet
 
+# おことわり
+- この記事には、ScriptableObjectとAddressablesに対応した[新しいバージョン](https://github.com/tetr4lab/GetSharedData2)があります。
+- この記事では、複数言語のテキストを用意して切り替えて使う多言語対応を扱っています。
+- その際、記載されているコードは、全ての言語リソースを常時使用可能にしています。
+- 実際は、同時に複数の言語が使用できる必要はないので、初期化時に必要な言語だけロードする方が良いです。
+
 # 前提
 - unity 2018.4.1f1
 - C#スクリプティング
